@@ -7,4 +7,12 @@ jobs:
             - name: echo job
               run: echo "hello world"
             - name: another echo job
-              run: echo "bello world"     
+              run: echo "bello world" 
+              
+    second-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: sample job
+              run: echo "hello master developer"
+            - name: tample job
+              run: echo "android developer"           
